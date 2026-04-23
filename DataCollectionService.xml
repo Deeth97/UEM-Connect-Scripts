@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCollection>
+  <BarcodeReader>
+    <BarcodeReaderProfile name="DEFAULT">
+      <DataProcessing>
+        <Suffix>\x0D</Suffix>
+      </DataProcessing>
+    </BarcodeReaderProfile>
+  </BarcodeReader>
+</DataCollection>
