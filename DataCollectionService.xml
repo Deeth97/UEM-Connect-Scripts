@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DataCollection>
-  <BarcodeReader>
-    <BarcodeReaderProfile name="DEFAULT">
-      <DataProcessing>
-        <Suffix>\x0D</Suffix>
-      </DataProcessing>
-    </BarcodeReaderProfile>
-  </BarcodeReader>
-</DataCollection>
+<ConfigDoc name="DataCollectionService" Version="1.0">
+  <Section name="wedge">
+    <Section name="profiles">
+      <Section name="dcs.scanner.imager">
+        <Section name="DEFAULT">
+          <Key name="DPR_SUFFIX">\x0D</Key>
+          <Key name="DPR_WEDGE">True</Key>
+        </Section>
+      </Section>
+    </Section>
+  </Section>
+</ConfigDoc>
